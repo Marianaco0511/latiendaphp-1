@@ -13,7 +13,6 @@
         <div class="card-image">
           <img src="{{ asset('img/' .$producto->imagen) }}">
           <span class="card-title">{{$producto->nombre}}</span>
-          <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
         </div>
         <div class="card-content">
           <p>{{$producto->descripcion}}</p>
